@@ -14,7 +14,7 @@ def binary_search(arr, target):
 
 	not_found = True
 
-	while not_found: # Repeats the above initial process until found ⬇
+	while not_found: # Repeats the above initial process until found ⬆
 		try:	
 			num = search[round(len(search) / 2) - 1]
 		except IndexError:
