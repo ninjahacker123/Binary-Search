@@ -20,7 +20,7 @@
 """
 
 
-from binary_search import binary_search as bs
+from binary_search import binary_search as bs # imports 'binary_search' function I wrote in 'binary_search.py' file
 
 array = [num for num in range(0, 10000)] # Dummy List to Search through
 target = 9999 # Target to find in the List ⬆
